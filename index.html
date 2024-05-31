@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop&Art</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-titre">
+            <img class="logo" src="logo.png" alt="logo de l'entreprise, les mots pop et art écrits en couleurs">
+            <h1 class="titre">Pop&Art</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#equipe">Équipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+        </div>
+    </header>
+
+    <section id="apropos">
+        <div class="conteneur">
+            <h2>À propos de Pop&Art</h2>
+            <p>Decription de l'entreprise. Son univers. Son histoire. Son expertise.</p>
+        </div>
+    </section>
+
+    <section id="produits">
+        <div class="conteneur">
+            <h2>Nos produits</h2>
+            <div class="grille-produits">
+                <div class="produit-item">
+                    <img src="produit1.png" alt="produit 1">
+                    <h3>Produit 1</h3>
+                    <p>Description : Notre super produit Pop&Art</p>
+                </div>
+                <div class="produit-item">
+                    <img src="produit2.png" alt="produit 2">
+                    <h3>Produit 2</h3>
+                    <p>Description : Notre super produit Pop&Art</p>
+                </div>
+                <div class="produit-item">
+                    <img src="produit3.png" alt="produit 3">
+                    <h3>Produit 3</h3>
+                    <p>Description : Notre super produit Pop&Art</p>
+                </div>
+                <div class="produit-item">
+                    <img src="produit4.png" alt="produit 4">
+                    <h3>Produit 4</h3>
+                    <p>Description : Notre super produit Pop&Art</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe">
+        <div class="conteneur">
+            <h2>Notre équipe</h2>
+            <div class="grille-equipe">
+                <div class="membre-equipe">
+                    <img src="photo1.png" alt="photo du PDG, homme cheveux courts">
+                    <h3>PDG</h3>
+                    <p>Description</p>
+                </div>
+                <div class="membre-equipe">
+                    <img src="photo3.png" alt="photo du graphiste, homme cheveux courts">
+                    <h3>Graphiste</h3>
+                    <p>Description</p>
+                </div>
+                <div class="membre-equipe">
+                    <img src="photo4.png" alt="photo du commercial, homme cheveux longs">
+                    <h3>Commercial</h3>
+                    <p>Description</p>
+                </div>
+                <div class="membre-equipe">
+                    <img src="photo2.png" alt="photo de la cheffe de projet, femme, cheveux mi-longs">
+                    <h3>Cheffe de projet</h3>
+                    <p>Description</p>
+                </div>
+                <div class="membre-equipe">
+                    <img src="photo5.png" alt="photo du vendeur, homme cheveux courts">
+                    <h3>Vendeur en boutique</h3>
+                    <p>Description </p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="conteneur">
+<h2>Contactez-nous</h2>
+<form onsubmit="return envoyerFormulaire()">
+<div class="champ-formulaire">
+<label for="nom">Nom:</label>
+<input type="text" id="nom" name="nom" required>
+</div>
+<div class="champ-formulaire">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+</div>
+<div class="champ-formulaire">
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+</div>
+<button type="submit">Envoyer</button>
+</form>
+</div>
+</section>
+
+<footer>
+<div class="conteneur">
+<ul class="reseaux-sociaux">
+<li><a href="https://www.facebook.com">Facebook</a></li>
+<li><a href="https://www.instagram.com">Instagram</a></li>
+<li><a href="https://www.twitter.com">Twitter</a></li>
+</ul>
+</div>
+</footer>
+
+<script>
+function envoyerFormulaire() {
+alert("Votre formulaire a bien été envoyé ! Pop&Art vous remercie !");
+return false;
+}
+</script>
+</body>
+</html>
