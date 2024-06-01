@@ -121,6 +121,16 @@ section {
     border-radius: 50%;
 }
 
+form {
+    max-width: 60%;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    background-color: lightgrey 
+}
+
 .champ-formulaire {
     margin-bottom: 15px;
 }
